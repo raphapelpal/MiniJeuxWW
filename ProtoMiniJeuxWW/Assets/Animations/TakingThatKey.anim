@@ -33,7 +33,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: ChallengeObj
+    path: "ChallengeObj/Poche Gauche/\xE9tiquette_clef"
     classID: 1
     script: {fileID: 0}
   m_PPtrCurves:
@@ -44,6 +44,13 @@ AnimationClip:
     path: 
     classID: 212
     script: {fileID: 0}
+  - curve:
+    - time: 0
+      value: {fileID: 21300000, guid: 4c446440760bd274ea1313cb9e410e58, type: 3}
+    attribute: m_Sprite
+    path: ChallengeObj/Poche Gauche
+    classID: 212
+    script: {fileID: 0}
   m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
@@ -52,7 +59,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 2566493826
+      path: 1897494561
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -65,8 +72,16 @@ AnimationClip:
       typeID: 212
       customType: 23
       isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 3176528110
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
     pptrCurveMapping:
     - {fileID: 21300000, guid: 4659bc41ff8e3984ebd2777e95ae2ce0, type: 3}
+    - {fileID: 21300000, guid: 4c446440760bd274ea1313cb9e410e58, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -104,7 +119,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: ChallengeObj
+    path: "ChallengeObj/Poche Gauche/\xE9tiquette_clef"
     classID: 1
     script: {fileID: 0}
   m_EulerEditorCurves: []
