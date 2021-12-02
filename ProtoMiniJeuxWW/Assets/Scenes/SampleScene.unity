@@ -394,7 +394,12 @@ MonoBehaviour:
   readyPince: {fileID: 21300000, guid: e6b3df20b4f67b647ade68e680cecf21, type: 3}
   thisSpriteRenderer: {fileID: 729098873}
   phatassAnimator: {fileID: 849124515}
-  ahhhhSource: {fileID: 0}
+  screamingSquirel: {fileID: 8300000, guid: cb6b664d84ff3c849baeaec707c9ca94, type: 3}
+  screamingMan: {fileID: 8300000, guid: 77b86b8f65272b1419b9fb47df16480f, type: 3}
+  wilhelmScream: {fileID: 8300000, guid: 65713efe629c69f478af0e59db2fe1fd, type: 3}
+  gtaMissionPassed: {fileID: 8300000, guid: 45ab478b4c8efac4dbc5c8f4c64142b9, type: 3}
+  gotchaBitch: {fileID: 8300000, guid: 15c022216f9535a42aa7c76c55d07934, type: 3}
+  jojoYareYare: {fileID: 8300000, guid: ecba7ca473ad39a4a9c00eeeb1a3cc7a, type: 3}
 --- !u!61 &729098876
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -452,7 +457,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 77b86b8f65272b1419b9fb47df16480f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 65713efe629c69f478af0e59db2fe1fd, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.5
   m_Pitch: 1
