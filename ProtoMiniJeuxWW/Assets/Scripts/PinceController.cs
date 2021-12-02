@@ -13,11 +13,12 @@ public class PinceController : MonoBehaviour
     public Sprite neutralPince, readyPince;
     [SerializeField] private SpriteRenderer thisSpriteRenderer;
     [SerializeField] private Animator phatassAnimator;
+    public AudioSource ahhhhSource;
     
     void FixedUpdate()
     {
         joystickInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-
+        ahhhhSource = GetComponent<AudioSource>();
         transform.position += new Vector3(joystickInput.x, -joystickInput.y, 0) * speed * Time.fixedDeltaTime;
         
         if (Input.GetButton("AButton") && canTakeKey && !hasPinched)
@@ -29,6 +30,7 @@ public class PinceController : MonoBehaviour
         else if (Input.GetButton("AButton") && !canTakeKey && !hasPinched)
         {
             phatassAnimator.SetTrigger("OhYeahPinchIt");
+            ahhhhSource.Play();
             thisSpriteRenderer.enabled = false;
             hasPinched = true;
         }
