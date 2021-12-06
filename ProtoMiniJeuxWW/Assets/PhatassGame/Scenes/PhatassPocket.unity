@@ -750,9 +750,9 @@ GameObject:
   - component: {fileID: 849124517}
   - component: {fileID: 849124516}
   - component: {fileID: 849124515}
+  - component: {fileID: 849124521}
   - component: {fileID: 849124520}
   - component: {fileID: 849124518}
-  - component: {fileID: 849124521}
   m_Layer: 0
   m_Name: Phatass
   m_TagString: Untagged
