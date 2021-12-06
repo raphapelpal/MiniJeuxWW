@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
 
 public class PinceController : MonoBehaviour
 {   
@@ -10,11 +11,12 @@ public class PinceController : MonoBehaviour
     [SerializeField] private bool canTakeKey = false, hasPinched = false;
     public Sprite neutralPince, readyPince;
     [SerializeField] private SpriteRenderer thisSpriteRenderer;
+    [SerializeField] private PlayableDirector soundDirector;
     [SerializeField] private Animator phatassAnimator;
     // Fail Audio Clips
-    [SerializeField] AudioClip screamingSquirel, screamingMan, wilhelmScream;
+    [SerializeField] AudioClip screamingSquirel, wilhelmScream, jojoReference;
     // Success Audio Clips
-    [SerializeField] AudioClip  gtaMissionPassed, gotchaBitch, jojoYareYare;
+    [SerializeField] AudioClip  gtaMissionPassed, gotchaBitch;
     AudioSource ahhhhSource;
     
     void FixedUpdate()
@@ -25,46 +27,52 @@ public class PinceController : MonoBehaviour
         
         if (Input.GetButton("AButton") && canTakeKey && !hasPinched)
         {
-            phatassAnimator.SetTrigger("SnipTheKey");
-            int randomValue = UnityEngine.Random.Range(1, 4);
+            int randomValue = UnityEngine.Random.Range(1, 3);
             if (randomValue == 1)
             {
+                phatassAnimator.SetTrigger("RespecMaDude");
                 ahhhhSource.clip = gtaMissionPassed;
+                
             }
             else if (randomValue == 2)
             {
+                phatassAnimator.SetTrigger("SnipTheKey");
                 ahhhhSource.clip = gotchaBitch;
             }
-            else if (randomValue == 3)
-            {
-                ahhhhSource.clip = jojoYareYare;
-            }
+            Debug.Log(randomValue);
 
             ahhhhSource.Play();
 
             thisSpriteRenderer.enabled = false;
             hasPinched = true;
+            soundDirector.enabled = false;
         }
         else if (Input.GetButton("AButton") && !canTakeKey && !hasPinched)
         {
-            phatassAnimator.SetTrigger("OhYeahPinchIt");
+
             int randomValue = UnityEngine.Random.Range(1, 4);
             if(randomValue == 1)
             {
+                phatassAnimator.SetTrigger("OhYeahPinchIt");
                 ahhhhSource.clip = screamingSquirel;
             }            
             else if(randomValue == 2)
             {
-                ahhhhSource.clip = screamingMan;
-            }
-            else if(randomValue == 3)
-            {
+                phatassAnimator.SetTrigger("OhYeahPinchIt");
                 ahhhhSource.clip = wilhelmScream;
             }
-
+            
+            else if(randomValue == 3)
+            {
+                phatassAnimator.SetTrigger("ToBeContinued");
+                ahhhhSource.clip = jojoReference;
+            }
+            Debug.Log(randomValue);
+            
             ahhhhSource.Play();
             thisSpriteRenderer.enabled = false;
             hasPinched = true;
+            soundDirector.enabled = false;
         }
     }
 
