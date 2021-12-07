@@ -18,11 +18,15 @@ public class PinceController : MonoBehaviour
     // Success Audio Clips
     [SerializeField] AudioClip  gtaMissionPassed, gotchaBitch;
     AudioSource ahhhhSource;
-    
+
+    private void Start()
+    {
+        ahhhhSource = GetComponent<AudioSource>();
+    }
+
     void FixedUpdate()
     {
         joystickInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-        ahhhhSource = GetComponent<AudioSource>();
         transform.position += new Vector3(joystickInput.x, -joystickInput.y, 0) * speed * Time.fixedDeltaTime;
         
         if (Input.GetButton("AButton") && canTakeKey && !hasPinched)

@@ -13,6 +13,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/DollaGame/Scripts/DollaBillScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DollaGame/Scripts/ContourScript.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="21gBMkT1vHR5vCBvOxQReQ6bGDV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -68,6 +72,7 @@
       <workItem from="1638369988312" duration="4260000" />
       <workItem from="1638462407610" duration="671000" />
       <workItem from="1638782645797" duration="8292000" />
+      <workItem from="1638873254666" duration="11327000" />
     </task>
     <servers />
   </component>
