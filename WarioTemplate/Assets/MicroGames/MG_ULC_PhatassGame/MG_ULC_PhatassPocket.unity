@@ -704,8 +704,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 818333740}
-  - component: {fileID: 818333739}
   - component: {fileID: 818333738}
+  - component: {fileID: 818333739}
   m_Layer: 0
   m_Name: GtaReferenceObj
   m_TagString: Untagged

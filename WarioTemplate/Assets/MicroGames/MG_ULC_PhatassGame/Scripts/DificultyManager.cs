@@ -8,24 +8,25 @@ public class DificultyManager : MonoBehaviour
     [SerializeField]
     private SpriteRenderer keyLeftPocket, tagKeyLeftPocket, keyRightPocket, emptyLeftPocket, emptyRightPocket;
     [SerializeField] private BoxCollider2D leftKeyCollider, rightKeyCollider;
+    private Animator phatassAnimator;
 
     void Start()
     {
+        phatassAnimator = GetComponent<Animator>();
         if (GameController. difficulty == 1)
         {
-            //keyLeftPocket.SetActive(true);
-            //emptyRightPocket.SetActive(true);
+            phatassAnimator.SetTrigger("IsEasy");
 
-            emptyLeftPocket.enabled = false;
-            keyRightPocket.enabled = false;
-            rightKeyCollider.enabled = false;
-            
+            emptyRightPocket.enabled = false;
+            keyLeftPocket.enabled = false;
+            tagKeyLeftPocket.enabled = false;
+            leftKeyCollider.enabled = false;
+
             Debug.Log("Easy Mode Active");
         }
         else if (GameController. difficulty == 2)
         {
-            //keyLeftPocket.SetActive(true);
-            //emptyRightPocket.SetActive(true);
+            phatassAnimator.SetTrigger("IsNormal");
             
             emptyLeftPocket.enabled = false;
             keyRightPocket.enabled = false;
@@ -35,13 +36,11 @@ public class DificultyManager : MonoBehaviour
         }
         else if (GameController. difficulty == 3)
         {
-            //keyRightPocket.SetActive(true);
-            //emptyLeftPocket.SetActive(true);
+            phatassAnimator.SetTrigger("IsHard");
 
-            emptyRightPocket.enabled = false;
-            keyLeftPocket.enabled = false;
-            tagKeyLeftPocket.enabled = false;
-            leftKeyCollider.enabled = false;
+            emptyLeftPocket.enabled = false;
+            keyRightPocket.enabled = false;
+            rightKeyCollider.enabled = false;
             
             Debug.Log("Hard Mode Active");
 
