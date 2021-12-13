@@ -15,9 +15,10 @@ public class PinceController : MonoBehaviour, ITickable
     [SerializeField] private PlayableDirector soundDirector;
     [SerializeField] private Animator phatassAnimator;
     // Fail Audio Clips
-    [SerializeField] AudioClip screamingSquirel, wilhelmScream, jojoReference;
+    [SerializeField] AudioClip screamingSquirel, wilhelmScream;
     // Success Audio Clips
-    [SerializeField] AudioClip  gtaMissionPassed, gotchaBitch;
+    [SerializeField] AudioClip gotchaBitch;
+    [SerializeField] private PlayableDirector gtaMissionPassed, jojoReference;
     AudioSource ahhhhSource;
 
     [SerializeField] private int bpm = 190;
@@ -47,8 +48,10 @@ public class PinceController : MonoBehaviour, ITickable
                 if (bestEnding)
                 {
                 phatassAnimator.SetTrigger("RespecMaDude");
-                ahhhhSource.clip = gtaMissionPassed;
-                ahhhhSource.Play();
+                gtaMissionPassed.enabled = true;
+                //ahhhhSource.clip = gtaMissionPassed;
+                //ahhhhSource.Play();
+                
                 thisSpriteRenderer.enabled = false;
                 hasPinched = true;
                 soundDirector.enabled = false;
@@ -70,10 +73,11 @@ public class PinceController : MonoBehaviour, ITickable
             phatassSuccess = false;
             if (bestEnding)
             {
-                phatassAnimator.SetFloat("animSpeed", 120 / bpm);
                 phatassAnimator.SetTrigger("ToBeContinued");
-                ahhhhSource.clip = jojoReference;
-                ahhhhSource.Play();
+                jojoReference.enabled = true;
+                //ahhhhSource.clip = jojoReference;
+                //ahhhhSource.Play();
+                
                 thisSpriteRenderer.enabled = false;
                 hasPinched = true;
                 soundDirector.enabled = false;
@@ -140,12 +144,12 @@ public class PinceController : MonoBehaviour, ITickable
         if (GameController.currentTick == 5) //NO MORE INPUT
         {
             canInput = false;
+            Debug.Log("No more Input");
             // Play ending where the guard walks away
         }
 
         if (GameController.currentTick == 8) //FINISH GAME
         {
-            
             GameController.FinishGame(phatassSuccess);
         }
     }

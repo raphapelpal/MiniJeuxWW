@@ -78,6 +78,20 @@ public class PinceController : MonoBehaviour
             hasPinched = true;
             soundDirector.enabled = false;
         }
+
+        /*if (Input.GetKey(KeyCode.UpArrow))
+        {
+            Time.timeScale = 1.5f;
+        }
+        else if (Input.GetKey(KeyCode.DownArrow))
+        {
+            Time.timeScale = 0.5f;
+        }
+
+        if (Input.GetKeyUp(KeyCode.DownArrow) || Input.GetKeyUp(KeyCode.UpArrow))
+        {
+            Time.timeScale = 1f;
+        }*/
     }
 
     private void OnTriggerEnter2D(Collider2D other)

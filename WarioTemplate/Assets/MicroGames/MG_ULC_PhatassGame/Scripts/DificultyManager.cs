@@ -7,17 +7,12 @@ public class DificultyManager : MonoBehaviour
     //[SerializeField] private GameObject keyRightPocket, keyLeftPocket, emptyRightPocket, emptyLeftPocket;
     [SerializeField]
     private SpriteRenderer keyLeftPocket, tagKeyLeftPocket, keyRightPocket, emptyLeftPocket, emptyRightPocket;
-
     [SerializeField] private BoxCollider2D leftKeyCollider, rightKeyCollider;
-    private float animSpeedControl;
-    private Animator phatassAnimator;
-    
+
     void Start()
     {
-        phatassAnimator = GetComponent<Animator>();
         if (GameController. difficulty == 1)
         {
-            animSpeedControl = 1f;
             //keyLeftPocket.SetActive(true);
             //emptyRightPocket.SetActive(true);
 
@@ -29,7 +24,6 @@ public class DificultyManager : MonoBehaviour
         }
         else if (GameController. difficulty == 2)
         {
-            animSpeedControl = 2f;
             //keyLeftPocket.SetActive(true);
             //emptyRightPocket.SetActive(true);
             
@@ -41,7 +35,6 @@ public class DificultyManager : MonoBehaviour
         }
         else if (GameController. difficulty == 3)
         {
-            animSpeedControl = 2.5f;
             //keyRightPocket.SetActive(true);
             //emptyLeftPocket.SetActive(true);
 
@@ -53,7 +46,5 @@ public class DificultyManager : MonoBehaviour
             Debug.Log("Hard Mode Active");
 
         }
-        phatassAnimator.SetFloat("animSpeed", animSpeedControl);
-        phatassAnimator.enabled = true;
     }
 }
