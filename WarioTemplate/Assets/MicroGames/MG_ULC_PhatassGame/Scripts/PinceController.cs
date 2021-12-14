@@ -21,8 +21,6 @@ public class PinceController : MonoBehaviour, ITickable
     [SerializeField] private PlayableDirector gtaMissionPassed, jojoReference;
     AudioSource ahhhhSource;
 
-    [SerializeField] private int bpm = 190;
-    
 
     private void Start()
     {
