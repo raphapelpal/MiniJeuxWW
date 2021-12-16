@@ -71,7 +71,7 @@ public class CutterController : MonoBehaviour, ITickable
                 StartCoroutine(HolupALilBit(3f));
             }
         }
-        
+
         //Bill Cut Check
         if (cornersReached == 4)
         {
