@@ -141,6 +141,7 @@ public class ULC_Phatass_PinceController : MonoBehaviour, ITickable
         
         if (GameController.currentTick == 5) //NO MORE INPUT
         {
+            soundDirector.enabled = false;
             canInput = false;
             phatassAnimator.SetTrigger("WalkAway");
             Debug.Log("No more Input");
