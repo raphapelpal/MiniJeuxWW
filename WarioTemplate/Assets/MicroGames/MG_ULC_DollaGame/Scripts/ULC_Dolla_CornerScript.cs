@@ -3,9 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CornerScript : MonoBehaviour
+public class ULC_Dolla_CornerScript : MonoBehaviour
 {
-    [SerializeField] private CutterController cutterController;
+    [SerializeField] private ULC_Dolla_CutterController cutterController;
 
     private void OnTriggerEnter2D(Collider2D other)
     {

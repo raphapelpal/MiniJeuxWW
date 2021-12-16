@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
-public class CutterController : MonoBehaviour, ITickable
+public class ULC_Dolla_CutterController : MonoBehaviour, ITickable
 {
     private Vector2 joystickInput;
     [SerializeField] private GameObject correctImmage, victoryScreen, failScreen, cutFeedbackObj;

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
 
-public class PinceController : MonoBehaviour, ITickable
+public class ULC_Phatass_PinceController : MonoBehaviour, ITickable
 {   
     [SerializeField] private float speed = 5f;
     private Vector2 joystickInput;

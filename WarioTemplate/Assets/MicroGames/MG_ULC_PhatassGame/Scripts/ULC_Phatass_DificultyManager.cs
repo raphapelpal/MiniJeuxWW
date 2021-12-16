@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DificultyManager : MonoBehaviour
+public class ULC_Phatass_DificultyManager : MonoBehaviour
 {
     //[SerializeField] private GameObject keyRightPocket, keyLeftPocket, emptyRightPocket, emptyLeftPocket;
     [SerializeField]
