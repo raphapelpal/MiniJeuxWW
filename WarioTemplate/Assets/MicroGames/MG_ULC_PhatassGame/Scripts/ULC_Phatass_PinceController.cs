@@ -15,7 +15,7 @@ public class ULC_Phatass_PinceController : MonoBehaviour, ITickable
     [SerializeField] private PlayableDirector soundDirector;
     [SerializeField] private Animator phatassAnimator;
     // Fail Audio Clips
-    [SerializeField] AudioClip screamingSquirel, wilhelmScream;
+    [SerializeField] AudioClip screamingSquirel, wilhelmScream, yameteKudasai, uCantTouchThis, theWhoYeah;
     // Success Audio Clips
     [SerializeField] AudioClip gotchaBitch;
     [SerializeField] private PlayableDirector gtaMissionPassed, jojoReference;
@@ -51,14 +51,27 @@ public class ULC_Phatass_PinceController : MonoBehaviour, ITickable
                 hasPinched = true;
                 soundDirector.enabled = false;
                 }*/
-                
-                phatassAnimator.SetTrigger("SnipTheKey");
-                ahhhhSource.clip = gotchaBitch;
-                ahhhhSource.Play();
-                thisSpriteRenderer.enabled = false;
-                hasPinched = true;
-                soundDirector.enabled = false;
-                StartCoroutine(HolupALilBit(1f));
+                int randomValue = UnityEngine.Random.Range(2, 2);
+                if (randomValue == 1)
+                {
+                    phatassAnimator.SetTrigger("SnipTheKey");
+                    ahhhhSource.clip = gotchaBitch;
+                    ahhhhSource.Play();
+                    thisSpriteRenderer.enabled = false;
+                    hasPinched = true;
+                    soundDirector.enabled = false;
+                    StartCoroutine(HolupALilBit(1f));
+                }
+                else if (randomValue == 2)
+                {
+                    phatassAnimator.SetTrigger("SnipTheKey");
+                    ahhhhSource.clip = theWhoYeah;
+                    ahhhhSource.Play();
+                    thisSpriteRenderer.enabled = false;
+                    hasPinched = true;
+                    soundDirector.enabled = false;
+                    StartCoroutine(HolupALilBit(3f));
+                }
                  
             }
         else if (InputManager.GetKeyDown(ControllerKey.A) && !canTakeKey && !hasPinched)
@@ -77,7 +90,7 @@ public class ULC_Phatass_PinceController : MonoBehaviour, ITickable
                 soundDirector.enabled = false;
             }*/
             
-            int randomValue = UnityEngine.Random.Range(1, 3);
+            int randomValue = UnityEngine.Random.Range(3, 3);
             if(randomValue == 1)
             {
                 phatassAnimator.SetTrigger("OhYeahPinchIt");
@@ -97,6 +110,26 @@ public class ULC_Phatass_PinceController : MonoBehaviour, ITickable
                 hasPinched = true;
                 soundDirector.enabled = false;
                 StartCoroutine(HolupALilBit(1f));
+            }
+            else if(randomValue == 3)
+            {
+                phatassAnimator.SetTrigger("OhYeahPinchIt");
+                ahhhhSource.clip = uCantTouchThis;
+                ahhhhSource.Play();
+                thisSpriteRenderer.enabled = false;
+                hasPinched = true;
+                soundDirector.enabled = false;
+                StartCoroutine(HolupALilBit(1f));
+            }
+            else if(randomValue == 4)
+            {
+                phatassAnimator.SetTrigger("OhYeahPinchIt");
+                ahhhhSource.clip = yameteKudasai;
+                ahhhhSource.Play();
+                thisSpriteRenderer.enabled = false;
+                hasPinched = true;
+                soundDirector.enabled = false;
+                StartCoroutine(HolupALilBit(1.8f));
             }
         }
         } 
