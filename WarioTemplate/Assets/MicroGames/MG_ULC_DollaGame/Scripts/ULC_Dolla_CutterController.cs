@@ -40,7 +40,7 @@ public class ULC_Dolla_CutterController : MonoBehaviour, ITickable
         else if(GameController. difficulty == 3)
         {
             billsToCut = 2;
-            speed = speed * 1.75f;
+            speed = speed * 1.5f;
             ActivateBills(2);
         }
     }
@@ -69,7 +69,7 @@ public class ULC_Dolla_CutterController : MonoBehaviour, ITickable
                 hasFinishedGame = true;
                 success = false;
                 failScreen.SetActive(true);
-                StartCoroutine(HolupALilBit(3f));
+                StartCoroutine(HolupALilBit(2.7f));
             }
         }
 

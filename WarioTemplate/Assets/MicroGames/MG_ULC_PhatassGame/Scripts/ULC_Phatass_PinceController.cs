@@ -35,41 +35,37 @@ public class ULC_Phatass_PinceController : MonoBehaviour, ITickable
     {
         if (canInput)
         {
-            //joystickInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-             joystickInput = new Vector2(InputManager.GetAxis(ControllerAxis.LEFT_STICK_HORIZONTAL),-InputManager.GetAxis(ControllerAxis.LEFT_STICK_VERTICAL));
+            joystickInput = new Vector2(InputManager.GetAxis(ControllerAxis.LEFT_STICK_HORIZONTAL),-InputManager.GetAxis(ControllerAxis.LEFT_STICK_VERTICAL));
         
             transform.position += new Vector3(joystickInput.x, -joystickInput.y, 0) * speed * Time.fixedDeltaTime;
         
             if (InputManager.GetKeyDown(ControllerKey.A) && canTakeKey && !hasPinched) 
             {
                 phatassSuccess = true;
-                if (bestEnding)
+                
+                /*if (bestEnding)
                 {
                 phatassAnimator.SetTrigger("RespecMaDude");
                 gtaMissionPassed.enabled = true;
-                //ahhhhSource.clip = gtaMissionPassed;
-                //ahhhhSource.Play();
-                
                 thisSpriteRenderer.enabled = false;
                 hasPinched = true;
                 soundDirector.enabled = false;
+                }*/
                 
-                }
-                else
-                {
                 phatassAnimator.SetTrigger("SnipTheKey");
                 ahhhhSource.clip = gotchaBitch;
                 ahhhhSource.Play();
                 thisSpriteRenderer.enabled = false;
                 hasPinched = true;
                 soundDirector.enabled = false;
-                StartCoroutine(HolupALilBit(1.5f));
-                } 
+                StartCoroutine(HolupALilBit(1f));
+                 
             }
         else if (InputManager.GetKeyDown(ControllerKey.A) && !canTakeKey && !hasPinched)
         {
             phatassSuccess = false;
-            if (bestEnding)
+            
+            /*if (bestEnding)
             {
                 phatassAnimator.SetTrigger("ToBeContinued");
                 jojoReference.enabled = true;
@@ -79,30 +75,28 @@ public class ULC_Phatass_PinceController : MonoBehaviour, ITickable
                 thisSpriteRenderer.enabled = false;
                 hasPinched = true;
                 soundDirector.enabled = false;
-            }
-            else
+            }*/
+            
+            int randomValue = UnityEngine.Random.Range(1, 3);
+            if(randomValue == 1)
             {
-                int randomValue = UnityEngine.Random.Range(1, 3);
-                if(randomValue == 1)
-                {
-                    phatassAnimator.SetTrigger("OhYeahPinchIt");
-                    ahhhhSource.clip = screamingSquirel;
-                    ahhhhSource.Play();
-                    thisSpriteRenderer.enabled = false;
-                    hasPinched = true;
-                    soundDirector.enabled = false;
-                    StartCoroutine(HolupALilBit(3f));
-                }            
-                else if(randomValue == 2)
-                {
-                    phatassAnimator.SetTrigger("OhYeahPinchIt");
-                    ahhhhSource.clip = wilhelmScream;
-                    ahhhhSource.Play();
-                    thisSpriteRenderer.enabled = false;
-                    hasPinched = true;
-                    soundDirector.enabled = false;
-                    StartCoroutine(HolupALilBit(2f));
-                }
+                phatassAnimator.SetTrigger("OhYeahPinchIt");
+                ahhhhSource.clip = screamingSquirel;
+                ahhhhSource.Play();
+                thisSpriteRenderer.enabled = false;
+                hasPinched = true;
+                soundDirector.enabled = false;
+                StartCoroutine(HolupALilBit(1.5f));
+            }            
+            else if(randomValue == 2)
+            {
+                phatassAnimator.SetTrigger("OhYeahPinchIt");
+                ahhhhSource.clip = wilhelmScream;
+                ahhhhSource.Play();
+                thisSpriteRenderer.enabled = false;
+                hasPinched = true;
+                soundDirector.enabled = false;
+                StartCoroutine(HolupALilBit(1f));
             }
         }
         } 
@@ -134,10 +128,10 @@ public class ULC_Phatass_PinceController : MonoBehaviour, ITickable
     
     public void OnTick()
     {
-        if (GameController.currentTick == 3) //NO MORE LONG ENDINGS
+        /*if (GameController.currentTick == 3) //NO MORE LONG ENDINGS
         {
             bestEnding = false;
-        }
+        }*/
         
         if (GameController.currentTick == 5) //NO MORE INPUT
         {
@@ -145,7 +139,6 @@ public class ULC_Phatass_PinceController : MonoBehaviour, ITickable
             canInput = false;
             phatassAnimator.SetTrigger("WalkAway");
             Debug.Log("No more Input");
-            // Play ending where the guard walks away
         }
 
         if (GameController.currentTick == 8) //FINISH GAME
