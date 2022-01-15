@@ -295,6 +295,58 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     path: "ChallengeObj/Poche Gauche avec Clef/\xE9tiquette_clef"
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.08, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.75
+        value: {x: -0.41, y: -0.72, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 1.5
+        value: {x: 0.08, y: 0, z: 0}
+        inSlope: {x: 0.5466667, y: 0, z: 0}
+        outSlope: {x: 0.5466667, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.25
+        value: {x: 0.41, y: -0.72, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 3
+        value: {x: 0.08, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: ChallengeObj
   m_ScaleCurves: []
   m_FloatCurves:
   - curve:
@@ -336,29 +388,6 @@ AnimationClip:
     classID: 1
     script: {fileID: 0}
   m_PPtrCurves:
-  - curve:
-    - time: 0
-      value: {fileID: 21300000, guid: 36e4f6584ccf5a04fa6672068b83fbc6, type: 3}
-    - time: 0.36666667
-      value: {fileID: 21300000, guid: 131c5ae23093cea41a1bc50503258be6, type: 3}
-    - time: 0.75
-      value: {fileID: 21300000, guid: d0f67b683a130174f9856028034490ee, type: 3}
-    - time: 1.1333333
-      value: {fileID: 21300000, guid: 131c5ae23093cea41a1bc50503258be6, type: 3}
-    - time: 1.5
-      value: {fileID: 21300000, guid: 36e4f6584ccf5a04fa6672068b83fbc6, type: 3}
-    - time: 1.8666667
-      value: {fileID: 21300000, guid: 88375ef3be155044eaeb261587f26f12, type: 3}
-    - time: 2.25
-      value: {fileID: 21300000, guid: dcb66eea76156a44eb9e2aab92ca6774, type: 3}
-    - time: 2.6333334
-      value: {fileID: 21300000, guid: 88375ef3be155044eaeb261587f26f12, type: 3}
-    - time: 3
-      value: {fileID: 21300000, guid: 36e4f6584ccf5a04fa6672068b83fbc6, type: 3}
-    attribute: m_Sprite
-    path: 
-    classID: 212
-    script: {fileID: 0}
   - curve:
     - time: 0
       value: {fileID: 21300000, guid: a33c28e03fabf1740b09ff3434a87569, type: 3}
@@ -412,6 +441,29 @@ AnimationClip:
     path: ChallengeObj/Poche Vide Droite
     classID: 212
     script: {fileID: 0}
+  - curve:
+    - time: 0
+      value: {fileID: 21300000, guid: 36e4f6584ccf5a04fa6672068b83fbc6, type: 3}
+    - time: 0.36666667
+      value: {fileID: 21300000, guid: 131c5ae23093cea41a1bc50503258be6, type: 3}
+    - time: 0.75
+      value: {fileID: 21300000, guid: d0f67b683a130174f9856028034490ee, type: 3}
+    - time: 1.1333333
+      value: {fileID: 21300000, guid: 131c5ae23093cea41a1bc50503258be6, type: 3}
+    - time: 1.5
+      value: {fileID: 21300000, guid: 36e4f6584ccf5a04fa6672068b83fbc6, type: 3}
+    - time: 1.8666667
+      value: {fileID: 21300000, guid: 88375ef3be155044eaeb261587f26f12, type: 3}
+    - time: 2.25
+      value: {fileID: 21300000, guid: dcb66eea76156a44eb9e2aab92ca6774, type: 3}
+    - time: 2.6333334
+      value: {fileID: 21300000, guid: 88375ef3be155044eaeb261587f26f12, type: 3}
+    - time: 3
+      value: {fileID: 21300000, guid: 36e4f6584ccf5a04fa6672068b83fbc6, type: 3}
+    attribute: m_Sprite
+    path: BodySprite
+    classID: 212
+    script: {fileID: 0}
   m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
@@ -428,6 +480,13 @@ AnimationClip:
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 2955416631
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2566493826
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -462,13 +521,6 @@ AnimationClip:
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 0
-      attribute: 0
-      script: {fileID: 0}
-      typeID: 212
-      customType: 23
-      isPPtrCurve: 1
-    - serializedVersion: 2
       path: 176813999
       attribute: 0
       script: {fileID: 0}
@@ -489,16 +541,14 @@ AnimationClip:
       typeID: 212
       customType: 23
       isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 1413341484
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300000, guid: 36e4f6584ccf5a04fa6672068b83fbc6, type: 3}
-    - {fileID: 21300000, guid: 131c5ae23093cea41a1bc50503258be6, type: 3}
-    - {fileID: 21300000, guid: d0f67b683a130174f9856028034490ee, type: 3}
-    - {fileID: 21300000, guid: 131c5ae23093cea41a1bc50503258be6, type: 3}
-    - {fileID: 21300000, guid: 36e4f6584ccf5a04fa6672068b83fbc6, type: 3}
-    - {fileID: 21300000, guid: 88375ef3be155044eaeb261587f26f12, type: 3}
-    - {fileID: 21300000, guid: dcb66eea76156a44eb9e2aab92ca6774, type: 3}
-    - {fileID: 21300000, guid: 88375ef3be155044eaeb261587f26f12, type: 3}
-    - {fileID: 21300000, guid: 36e4f6584ccf5a04fa6672068b83fbc6, type: 3}
     - {fileID: 21300000, guid: a33c28e03fabf1740b09ff3434a87569, type: 3}
     - {fileID: 21300000, guid: 05689e939523a184a89158c8a7f288f2, type: 3}
     - {fileID: 21300000, guid: 62e874eb27c686547a982e0689defd69, type: 3}
@@ -518,6 +568,15 @@ AnimationClip:
     - {fileID: 21300000, guid: f7dd3e65604a4394ca63b15dedb46d9d, type: 3}
     - {fileID: 21300000, guid: 5530480f3456e7b4facb5bc02948fb76, type: 3}
     - {fileID: 21300000, guid: 4c446440760bd274ea1313cb9e410e58, type: 3}
+    - {fileID: 21300000, guid: 36e4f6584ccf5a04fa6672068b83fbc6, type: 3}
+    - {fileID: 21300000, guid: 131c5ae23093cea41a1bc50503258be6, type: 3}
+    - {fileID: 21300000, guid: d0f67b683a130174f9856028034490ee, type: 3}
+    - {fileID: 21300000, guid: 131c5ae23093cea41a1bc50503258be6, type: 3}
+    - {fileID: 21300000, guid: 36e4f6584ccf5a04fa6672068b83fbc6, type: 3}
+    - {fileID: 21300000, guid: 88375ef3be155044eaeb261587f26f12, type: 3}
+    - {fileID: 21300000, guid: dcb66eea76156a44eb9e2aab92ca6774, type: 3}
+    - {fileID: 21300000, guid: 88375ef3be155044eaeb261587f26f12, type: 3}
+    - {fileID: 21300000, guid: 36e4f6584ccf5a04fa6672068b83fbc6, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -1451,6 +1510,171 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
     path: "ChallengeObj/Poche Gauche avec Clef/\xE9tiquette_clef"
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.08
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.75
+        value: -0.41
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.5
+        value: 0.08
+        inSlope: 0.5466667
+        outSlope: 0.5466667
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.25
+        value: 0.41
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 3
+        value: 0.08
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: ChallengeObj
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.75
+        value: -0.72
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.25
+        value: -0.72
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 3
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: ChallengeObj
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.75
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 3
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: ChallengeObj
     classID: 4
     script: {fileID: 0}
   m_EulerEditorCurves:

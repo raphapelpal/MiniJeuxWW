@@ -51,7 +51,7 @@ public class ULC_Phatass_PinceController : MonoBehaviour, ITickable
                 hasPinched = true;
                 soundDirector.enabled = false;
                 }*/
-                int randomValue = UnityEngine.Random.Range(2, 2);
+                int randomValue = UnityEngine.Random.Range(1, 3);
                 if (randomValue == 1)
                 {
                     phatassAnimator.SetTrigger("SnipTheKey");
@@ -90,7 +90,7 @@ public class ULC_Phatass_PinceController : MonoBehaviour, ITickable
                 soundDirector.enabled = false;
             }*/
             
-            int randomValue = UnityEngine.Random.Range(3, 3);
+            int randomValue = UnityEngine.Random.Range(1, 5);
             if(randomValue == 1)
             {
                 phatassAnimator.SetTrigger("OhYeahPinchIt");
