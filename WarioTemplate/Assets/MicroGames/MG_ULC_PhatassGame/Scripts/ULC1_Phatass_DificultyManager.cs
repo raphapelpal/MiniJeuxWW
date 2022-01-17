@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ULC_Phatass_DificultyManager : MonoBehaviour
+public class ULC1_Phatass_DificultyManager : MonoBehaviour
 {
     //[SerializeField] private GameObject keyRightPocket, keyLeftPocket, emptyRightPocket, emptyLeftPocket;
     [SerializeField]
@@ -17,10 +17,9 @@ public class ULC_Phatass_DificultyManager : MonoBehaviour
         {
             phatassAnimator.SetTrigger("IsEasy");
 
-            emptyRightPocket.enabled = false;
-            keyLeftPocket.enabled = false;
-            tagKeyLeftPocket.enabled = false;
-            leftKeyCollider.enabled = false;
+            emptyLeftPocket.enabled = false;
+            keyRightPocket.enabled = false;
+            rightKeyCollider.enabled = false;
 
             Debug.Log("Easy Mode Active");
         }
@@ -28,9 +27,12 @@ public class ULC_Phatass_DificultyManager : MonoBehaviour
         {
             phatassAnimator.SetTrigger("IsNormal");
             
-            emptyLeftPocket.enabled = false;
-            keyRightPocket.enabled = false;
-            rightKeyCollider.enabled = false;
+            
+            
+            emptyRightPocket.enabled = false;
+            keyLeftPocket.enabled = false;
+            tagKeyLeftPocket.enabled = false;
+            leftKeyCollider.enabled = false;
             
             Debug.Log("Normal Mode Active");
         }

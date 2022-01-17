@@ -6,7 +6,7 @@ using UnityEngine.Playables;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
-public class ULC_Dolla_CutterController : MonoBehaviour, ITickable
+public class ULC2_Dolla_CutterController : MonoBehaviour, ITickable
 {
     private Vector2 joystickInput;
     [SerializeField] private GameObject correctImmage, victoryScreen, failScreen, cutFeedbackObj;
@@ -52,7 +52,7 @@ public class ULC_Dolla_CutterController : MonoBehaviour, ITickable
             //Joystick Input
             joystickInput = new Vector2(InputManager.GetAxis(ControllerAxis.LEFT_STICK_HORIZONTAL),
                 -InputManager.GetAxis(ControllerAxis.LEFT_STICK_VERTICAL));
-            transform.position += new Vector3(joystickInput.x, -joystickInput.y, 0) * speed;
+            transform.position += new Vector3(joystickInput.x, -joystickInput.y, 0) * speed * GameController.gameBPM / 60;
 
             if (InputManager.GetKeyDown(ControllerKey.A) && canCut)
             {

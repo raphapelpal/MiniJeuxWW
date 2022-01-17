@@ -36,7 +36,7 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-        time: 1.5
+        time: 1.4833333
         value: {x: 0, y: 0, z: 0}
         inSlope: {x: 0, y: -40, z: 0}
         outSlope: {x: 0, y: -40, z: 0}
@@ -66,94 +66,6 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     path: ChallengeObj
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: 0, y: 0, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.36666667
-        value: {x: 6.361, y: -1.49, z: -26.344}
-        inSlope: {x: 29.485334, y: -7.946667, z: -82.100006}
-        outSlope: {x: 29.485334, y: -7.946667, z: -82.100006}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.75
-        value: {x: 22.114, y: -10.505, z: -61.575}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 1.1333333
-        value: {x: 6.361, y: -1.49, z: -26.344}
-        inSlope: {x: -29.485334, y: 7.946665, z: 82.100006}
-        outSlope: {x: -29.485334, y: 7.946665, z: 82.100006}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 1.5
-        value: {x: 0, y: 0, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 1.8666667
-        value: {x: 6.361, y: -1.49, z: -26.344}
-        inSlope: {x: 29.485334, y: -7.946667, z: -82.100006}
-        outSlope: {x: 29.485334, y: -7.946667, z: -82.100006}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 2.25
-        value: {x: 22.114, y: -10.505, z: -61.575}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 2.6333334
-        value: {x: 6.361, y: -1.49, z: -26.344}
-        inSlope: {x: -29.485334, y: 7.946665, z: 82.100006}
-        outSlope: {x: -29.485334, y: 7.946665, z: 82.100006}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 3
-        value: {x: 0, y: 0, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: "ChallengeObj/Poche Gauche avec Clef/\xE9tiquette_clef"
   m_PositionCurves:
   - curve:
       serializedVersion: 2
@@ -177,7 +89,7 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-        time: 1.5
+        time: 1.4833333
         value: {x: 0.1, y: -0.1, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -212,95 +124,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0.66500014, y: 1.08, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.36666667
-        value: {x: 0.27, y: 0.86, z: -0.07}
-        inSlope: {x: -1.0600002, y: 0, z: -0.29333332}
-        outSlope: {x: -1.0600002, y: 0, z: -0.29333332}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.75
-        value: {x: -0.13, y: 1.12, z: -0.22}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 1.1333333
-        value: {x: 0.27, y: 0.86, z: -0.07}
-        inSlope: {x: 1.0600002, y: 0, z: 0.29333332}
-        outSlope: {x: 1.0600002, y: 0, z: 0.29333332}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 1.5
-        value: {x: 0.66500014, y: 1.08, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 1.8666667
-        value: {x: 0.27, y: 0.86, z: -0.07}
-        inSlope: {x: -1.0600002, y: 0, z: -0.29333332}
-        outSlope: {x: -1.0600002, y: 0, z: -0.29333332}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 2.25
-        value: {x: -0.13, y: 1.12, z: -0.22}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 2.6333334
-        value: {x: 0.27, y: 0.86, z: -0.07}
-        inSlope: {x: 1.0600002, y: 0, z: 0.29333332}
-        outSlope: {x: 1.0600002, y: 0, z: 0.29333332}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 3
-        value: {x: 0.66500014, y: 1.08, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: "ChallengeObj/Poche Gauche avec Clef/\xE9tiquette_clef"
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: 0.08, y: 0, z: 0}
+        value: {x: 0.06, y: 0, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -309,7 +133,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 0.75
-        value: {x: -0.41, y: -0.72, z: 0}
+        value: {x: -0.43, y: -0.47, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -317,17 +141,17 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-        time: 1.5
-        value: {x: 0.08, y: 0, z: 0}
-        inSlope: {x: 0.5466667, y: 0, z: 0}
-        outSlope: {x: 0.5466667, y: 0, z: 0}
+        time: 1.4833333
+        value: {x: 0.06, y: 0, z: 0}
+        inSlope: {x: 0.5733333, y: 0, z: 0}
+        outSlope: {x: 0.5733333, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 2.25
-        value: {x: 0.41, y: -0.72, z: 0}
+        value: {x: 0.43, y: -0.47, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -336,7 +160,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 3
-        value: {x: 0.08, y: 0, z: 0}
+        value: {x: 0.06, y: 0, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -365,7 +189,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: ChallengeObj/Poche Droite avec Clef
+    path: ChallengeObj/Poche Gauche avec Clef
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -384,26 +208,26 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: ChallengeObj/Poche Vide Gauche
+    path: ChallengeObj/Poche Vide Droite
     classID: 1
     script: {fileID: 0}
   m_PPtrCurves:
   - curve:
     - time: 0
       value: {fileID: 21300000, guid: a33c28e03fabf1740b09ff3434a87569, type: 3}
-    - time: 0.36666667
+    - time: 0.35
       value: {fileID: 21300000, guid: 05689e939523a184a89158c8a7f288f2, type: 3}
     - time: 0.75
       value: {fileID: 21300000, guid: 62e874eb27c686547a982e0689defd69, type: 3}
     - time: 1.1333333
       value: {fileID: 21300000, guid: 05689e939523a184a89158c8a7f288f2, type: 3}
-    - time: 1.5
+    - time: 1.4833333
       value: {fileID: 21300000, guid: a33c28e03fabf1740b09ff3434a87569, type: 3}
     - time: 1.8666667
       value: {fileID: 21300000, guid: ddb0a8ed38b46c045a76a7adbd190c92, type: 3}
     - time: 2.25
       value: {fileID: 21300000, guid: 1b3dcf07b0c7ea6458cbd373f18ff96e, type: 3}
-    - time: 2.6333334
+    - time: 2.65
       value: {fileID: 21300000, guid: ddb0a8ed38b46c045a76a7adbd190c92, type: 3}
     - time: 3
       value: {fileID: 21300000, guid: a33c28e03fabf1740b09ff3434a87569, type: 3}
@@ -413,50 +237,50 @@ AnimationClip:
     script: {fileID: 0}
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: 6cb1b84e8a3a3404496e96e39c519fd6, type: 3}
-    - time: 0.36666667
-      value: {fileID: 21300000, guid: 31d795d384d16ee4fa659d75766b5bfc, type: 3}
+      value: {fileID: 21300000, guid: 4c446440760bd274ea1313cb9e410e58, type: 3}
+    - time: 0.35
+      value: {fileID: 21300000, guid: 5530480f3456e7b4facb5bc02948fb76, type: 3}
     - time: 0.75
-      value: {fileID: 21300000, guid: ed22a9cb3ee54be4589bd236e8d0fe23, type: 3}
+      value: {fileID: 21300000, guid: f7dd3e65604a4394ca63b15dedb46d9d, type: 3}
     - time: 1.1333333
-      value: {fileID: 21300000, guid: 31d795d384d16ee4fa659d75766b5bfc, type: 3}
-    - time: 1.5
-      value: {fileID: 21300000, guid: 6cb1b84e8a3a3404496e96e39c519fd6, type: 3}
+      value: {fileID: 21300000, guid: 5530480f3456e7b4facb5bc02948fb76, type: 3}
+    - time: 1.4833333
+      value: {fileID: 21300000, guid: 4c446440760bd274ea1313cb9e410e58, type: 3}
     attribute: m_Sprite
-    path: ChallengeObj/Poche Gauche avec Clef
+    path: ChallengeObj/Poche Vide Gauche
     classID: 212
     script: {fileID: 0}
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: 4c446440760bd274ea1313cb9e410e58, type: 3}
+      value: {fileID: 21300000, guid: c614ba98f0e178f42ae8201d490652c0, type: 3}
     - time: 1.8666667
-      value: {fileID: 21300000, guid: 5530480f3456e7b4facb5bc02948fb76, type: 3}
+      value: {fileID: 21300000, guid: 232768036c3a2014198f366e751cf0a3, type: 3}
     - time: 2.25
-      value: {fileID: 21300000, guid: f7dd3e65604a4394ca63b15dedb46d9d, type: 3}
-    - time: 2.6333334
-      value: {fileID: 21300000, guid: 5530480f3456e7b4facb5bc02948fb76, type: 3}
+      value: {fileID: 21300000, guid: 30bcdb60102ffd44893200754b0c9f0a, type: 3}
+    - time: 2.65
+      value: {fileID: 21300000, guid: 232768036c3a2014198f366e751cf0a3, type: 3}
     - time: 3
-      value: {fileID: 21300000, guid: 4c446440760bd274ea1313cb9e410e58, type: 3}
+      value: {fileID: 21300000, guid: c614ba98f0e178f42ae8201d490652c0, type: 3}
     attribute: m_Sprite
-    path: ChallengeObj/Poche Vide Droite
+    path: ChallengeObj/Poche Droite avec Clef
     classID: 212
     script: {fileID: 0}
   - curve:
     - time: 0
       value: {fileID: 21300000, guid: 36e4f6584ccf5a04fa6672068b83fbc6, type: 3}
-    - time: 0.36666667
+    - time: 0.35
       value: {fileID: 21300000, guid: 131c5ae23093cea41a1bc50503258be6, type: 3}
     - time: 0.75
       value: {fileID: 21300000, guid: d0f67b683a130174f9856028034490ee, type: 3}
     - time: 1.1333333
       value: {fileID: 21300000, guid: 131c5ae23093cea41a1bc50503258be6, type: 3}
-    - time: 1.5
+    - time: 1.4833333
       value: {fileID: 21300000, guid: 36e4f6584ccf5a04fa6672068b83fbc6, type: 3}
     - time: 1.8666667
       value: {fileID: 21300000, guid: 88375ef3be155044eaeb261587f26f12, type: 3}
     - time: 2.25
       value: {fileID: 21300000, guid: dcb66eea76156a44eb9e2aab92ca6774, type: 3}
-    - time: 2.6333334
+    - time: 2.65
       value: {fileID: 21300000, guid: 88375ef3be155044eaeb261587f26f12, type: 3}
     - time: 3
       value: {fileID: 21300000, guid: 36e4f6584ccf5a04fa6672068b83fbc6, type: 3}
@@ -479,13 +303,6 @@ AnimationClip:
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2955416631
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
       path: 2566493826
       attribute: 1
       script: {fileID: 0}
@@ -500,21 +317,14 @@ AnimationClip:
       customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2955416631
-      attribute: 4
-      script: {fileID: 0}
-      typeID: 4
-      customType: 4
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3432392470
+      path: 931743358
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 925702270
+      path: 1119742194
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -528,14 +338,14 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     - serializedVersion: 2
-      path: 931743358
+      path: 925702270
       attribute: 0
       script: {fileID: 0}
       typeID: 212
       customType: 23
       isPPtrCurve: 1
     - serializedVersion: 2
-      path: 1119742194
+      path: 3432392470
       attribute: 0
       script: {fileID: 0}
       typeID: 212
@@ -558,16 +368,16 @@ AnimationClip:
     - {fileID: 21300000, guid: 1b3dcf07b0c7ea6458cbd373f18ff96e, type: 3}
     - {fileID: 21300000, guid: ddb0a8ed38b46c045a76a7adbd190c92, type: 3}
     - {fileID: 21300000, guid: a33c28e03fabf1740b09ff3434a87569, type: 3}
-    - {fileID: 21300000, guid: 6cb1b84e8a3a3404496e96e39c519fd6, type: 3}
-    - {fileID: 21300000, guid: 31d795d384d16ee4fa659d75766b5bfc, type: 3}
-    - {fileID: 21300000, guid: ed22a9cb3ee54be4589bd236e8d0fe23, type: 3}
-    - {fileID: 21300000, guid: 31d795d384d16ee4fa659d75766b5bfc, type: 3}
-    - {fileID: 21300000, guid: 6cb1b84e8a3a3404496e96e39c519fd6, type: 3}
     - {fileID: 21300000, guid: 4c446440760bd274ea1313cb9e410e58, type: 3}
     - {fileID: 21300000, guid: 5530480f3456e7b4facb5bc02948fb76, type: 3}
     - {fileID: 21300000, guid: f7dd3e65604a4394ca63b15dedb46d9d, type: 3}
     - {fileID: 21300000, guid: 5530480f3456e7b4facb5bc02948fb76, type: 3}
     - {fileID: 21300000, guid: 4c446440760bd274ea1313cb9e410e58, type: 3}
+    - {fileID: 21300000, guid: c614ba98f0e178f42ae8201d490652c0, type: 3}
+    - {fileID: 21300000, guid: 232768036c3a2014198f366e751cf0a3, type: 3}
+    - {fileID: 21300000, guid: 30bcdb60102ffd44893200754b0c9f0a, type: 3}
+    - {fileID: 21300000, guid: 232768036c3a2014198f366e751cf0a3, type: 3}
+    - {fileID: 21300000, guid: c614ba98f0e178f42ae8201d490652c0, type: 3}
     - {fileID: 21300000, guid: 36e4f6584ccf5a04fa6672068b83fbc6, type: 3}
     - {fileID: 21300000, guid: 131c5ae23093cea41a1bc50503258be6, type: 3}
     - {fileID: 21300000, guid: d0f67b683a130174f9856028034490ee, type: 3}
@@ -603,116 +413,6 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.75
-        value: 0.1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.5
-        value: 0.1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 2.25
-        value: 0.1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 3
-        value: 0.1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalPosition.x
-    path: 
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -0.1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.75
-        value: -0.6
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.5
-        value: -0.1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 2.25
-        value: -0.6
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 3
-        value: -0.1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalPosition.y
-    path: 
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
         value: 0
         inSlope: 0
         outSlope: 0
@@ -730,62 +430,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.5
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 2.25
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 3
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalPosition.z
-    path: 
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.75
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.5
+        time: 1.4833333
         value: 0
         inSlope: 0
         outSlope: 0
@@ -840,7 +485,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.5
+        time: 1.4833333
         value: 0
         inSlope: -40
         outSlope: -40
@@ -895,7 +540,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.5
+        time: 1.4833333
         value: 0
         inSlope: 0
         outSlope: 0
@@ -944,7 +589,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: ChallengeObj/Poche Droite avec Clef
+    path: ChallengeObj/Poche Gauche avec Clef
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -963,7 +608,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: ChallengeObj/Poche Vide Gauche
+    path: ChallengeObj/Poche Vide Droite
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -971,25 +616,16 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.66500014
+        value: 0.1
         inSlope: 0
         outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
-        value: 0.27
-        inSlope: -1.0600002
-        outSlope: -1.0600002
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.75
-        value: -0.13
+        value: 0.1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -997,35 +633,17 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.1333333
-        value: 0.27
-        inSlope: 1.0600002
-        outSlope: 1.0600002
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.5
-        value: 0.66500014
+        time: 1.4833333
+        value: 0.1
         inSlope: 0
         outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.8666667
-        value: 0.27
-        inSlope: -1.0600002
-        outSlope: -1.0600002
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 2.25
-        value: -0.13
+        value: 0.1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1033,17 +651,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 2.6333334
-        value: 0.27
-        inSlope: 1.0600002
-        outSlope: 1.0600002
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
         time: 3
-        value: 0.66500014
+        value: 0.1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1054,7 +663,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: "ChallengeObj/Poche Gauche avec Clef/\xE9tiquette_clef"
+    path: 
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1062,16 +671,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1.08
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
-        value: 0.86
+        value: -0.1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1080,7 +680,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.75
-        value: 1.12
+        value: -0.6
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1088,26 +688,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.1333333
-        value: 0.86
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.5
-        value: 1.08
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.8666667
-        value: 0.86
+        time: 1.4833333
+        value: -0.1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1116,16 +698,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 2.25
-        value: 1.12
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 2.6333334
-        value: 0.86
+        value: -0.6
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1134,7 +707,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 3
-        value: 1.08
+        value: -0.1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1145,7 +718,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: "ChallengeObj/Poche Gauche avec Clef/\xE9tiquette_clef"
+    path: 
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1161,34 +734,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.36666667
-        value: -0.07
-        inSlope: -0.29333332
-        outSlope: -0.29333332
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
         time: 0.75
-        value: -0.22
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.1333333
-        value: -0.07
-        inSlope: 0.29333332
-        outSlope: 0.29333332
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.5
         value: 0
         inSlope: 0
         outSlope: 0
@@ -1197,17 +743,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.8666667
-        value: -0.07
-        inSlope: -0.29333332
-        outSlope: -0.29333332
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 2.25
-        value: -0.22
+        time: 1.4833333
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1215,10 +752,10 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 2.6333334
-        value: -0.07
-        inSlope: 0.29333332
-        outSlope: 0.29333332
+        time: 2.25
+        value: 0
+        inSlope: 0
+        outSlope: 0
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
@@ -1236,7 +773,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: "ChallengeObj/Poche Gauche avec Clef/\xE9tiquette_clef"
+    path: 
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1244,280 +781,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
-        value: 6.361
-        inSlope: 29.485334
-        outSlope: 29.485334
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.75
-        value: 22.114
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.1333333
-        value: 6.361
-        inSlope: -29.485334
-        outSlope: -29.485334
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.5
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.8666667
-        value: 6.361
-        inSlope: 29.485334
-        outSlope: 29.485334
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 2.25
-        value: 22.114
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 2.6333334
-        value: 6.361
-        inSlope: -29.485334
-        outSlope: -29.485334
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 3
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.x
-    path: "ChallengeObj/Poche Gauche avec Clef/\xE9tiquette_clef"
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
-        value: -1.49
-        inSlope: -7.946667
-        outSlope: -7.946667
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.75
-        value: -10.505
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.1333333
-        value: -1.49
-        inSlope: 7.946665
-        outSlope: 7.946665
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.5
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.8666667
-        value: -1.49
-        inSlope: -7.946667
-        outSlope: -7.946667
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 2.25
-        value: -10.505
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 2.6333334
-        value: -1.49
-        inSlope: 7.946665
-        outSlope: 7.946665
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 3
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.y
-    path: "ChallengeObj/Poche Gauche avec Clef/\xE9tiquette_clef"
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
-        value: -26.344
-        inSlope: -82.100006
-        outSlope: -82.100006
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.75
-        value: -61.575
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.1333333
-        value: -26.344
-        inSlope: 82.100006
-        outSlope: 82.100006
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.5
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.8666667
-        value: -26.344
-        inSlope: -82.100006
-        outSlope: -82.100006
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 2.25
-        value: -61.575
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 2.6333334
-        value: -26.344
-        inSlope: 82.100006
-        outSlope: 82.100006
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 3
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.z
-    path: "ChallengeObj/Poche Gauche avec Clef/\xE9tiquette_clef"
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.08
+        value: 0.06
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1526,7 +790,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.75
-        value: -0.41
+        value: -0.43
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1534,17 +798,17 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.5
-        value: 0.08
-        inSlope: 0.5466667
-        outSlope: 0.5466667
+        time: 1.4833333
+        value: 0.06
+        inSlope: 0.5733333
+        outSlope: 0.5733333
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 2.25
-        value: 0.41
+        value: 0.43
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1553,7 +817,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 3
-        value: 0.08
+        value: 0.06
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1581,7 +845,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.75
-        value: -0.72
+        value: -0.47
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1589,7 +853,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.5
+        time: 1.4833333
         value: 0
         inSlope: 0
         outSlope: 0
@@ -1599,7 +863,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 2.25
-        value: -0.72
+        value: -0.47
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1644,7 +908,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.5
+        time: 1.4833333
         value: 0
         inSlope: 0
         outSlope: 0
@@ -1684,7 +948,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
+    attribute: m_LocalEulerAngles.x
     path: ChallengeObj
     classID: 4
     script: {fileID: 0}
@@ -1704,38 +968,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: ChallengeObj
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: "ChallengeObj/Poche Gauche avec Clef/\xE9tiquette_clef"
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: "ChallengeObj/Poche Gauche avec Clef/\xE9tiquette_clef"
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: "ChallengeObj/Poche Gauche avec Clef/\xE9tiquette_clef"
+    path: ChallengeObj
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 1

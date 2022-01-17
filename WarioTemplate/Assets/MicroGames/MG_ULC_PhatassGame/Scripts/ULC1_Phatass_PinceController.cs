@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
 
-public class ULC_Phatass_PinceController : MonoBehaviour, ITickable
+public class ULC1_Phatass_PinceController : MonoBehaviour, ITickable
 {   
     [SerializeField] private float speed = 5f;
     private Vector2 joystickInput;
@@ -37,7 +37,7 @@ public class ULC_Phatass_PinceController : MonoBehaviour, ITickable
         {
             joystickInput = new Vector2(InputManager.GetAxis(ControllerAxis.LEFT_STICK_HORIZONTAL),-InputManager.GetAxis(ControllerAxis.LEFT_STICK_VERTICAL));
         
-            transform.position += new Vector3(joystickInput.x, -joystickInput.y, 0) * speed * Time.fixedDeltaTime;
+            transform.position += new Vector3(joystickInput.x, -joystickInput.y, 0) * speed * GameController.gameBPM / 60;
         
             if (InputManager.GetKeyDown(ControllerKey.A) && canTakeKey && !hasPinched) 
             {
@@ -70,7 +70,7 @@ public class ULC_Phatass_PinceController : MonoBehaviour, ITickable
                     thisSpriteRenderer.enabled = false;
                     hasPinched = true;
                     soundDirector.enabled = false;
-                    StartCoroutine(HolupALilBit(3f));
+                    StartCoroutine(HolupALilBit(2.5f));
                 }
                  
             }
