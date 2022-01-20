@@ -8,7 +8,7 @@ public class ULC1_Phatass_PinceController : MonoBehaviour, ITickable
 {   
     [SerializeField] private float speed = 5f;
     private Vector2 joystickInput;
-    [SerializeField] private bool canTakeKey = false, hasPinched = false, bestEnding, canInput;
+    [SerializeField] private bool canTakeKey = false, hasPinched = false, bestEnding, canInput, canStop = false;
     public bool phatassSuccess;
     [SerializeField] Sprite neutralPince, readyPince;
     [SerializeField] private SpriteRenderer thisSpriteRenderer;
@@ -42,7 +42,7 @@ public class ULC1_Phatass_PinceController : MonoBehaviour, ITickable
             if (InputManager.GetKeyDown(ControllerKey.A) && canTakeKey && !hasPinched) 
             {
                 phatassSuccess = true;
-                
+                canStop = true;
                 /*if (bestEnding)
                 {
                 phatassAnimator.SetTrigger("RespecMaDude");
@@ -87,7 +87,7 @@ public class ULC1_Phatass_PinceController : MonoBehaviour, ITickable
         else if (InputManager.GetKeyDown(ControllerKey.A) && !canTakeKey && !hasPinched)
         {
             phatassSuccess = false;
-            
+            canStop = true;
             /*if (bestEnding)
             {
                 phatassAnimator.SetTrigger("ToBeContinued");
@@ -178,10 +178,17 @@ public class ULC1_Phatass_PinceController : MonoBehaviour, ITickable
         
         if (GameController.currentTick == 5) //NO MORE INPUT
         {
+            GameController.StopTimer();
             soundDirector.enabled = false;
             canInput = false;
             phatassAnimator.SetTrigger("WalkAway");
             Debug.Log("No more Input");
+        }
+        
+        if (canStop)
+        {
+            GameController.StopTimer();
+            canStop = false;
         }
 
         if (GameController.currentTick == 8) //FINISH GAME
