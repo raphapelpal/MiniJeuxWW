@@ -15,7 +15,7 @@ public class ULC1_Phatass_PinceController : MonoBehaviour, ITickable
     [SerializeField] private PlayableDirector soundDirector;
     [SerializeField] private Animator phatassAnimator;
     // Fail Audio Clips
-    [SerializeField] AudioClip screamingSquirel, wilhelmScream, yameteKudasai, uCantTouchThis, theWhoYeah;
+    [SerializeField] AudioClip screamingSquirel, wilhelmScream, yameteKudasai, uCantTouchThis, theWhoYeah, weGotEm;
     // Success Audio Clips
     [SerializeField] AudioClip gotchaBitch;
     [SerializeField] private PlayableDirector gtaMissionPassed, jojoReference;
@@ -51,7 +51,7 @@ public class ULC1_Phatass_PinceController : MonoBehaviour, ITickable
                 hasPinched = true;
                 soundDirector.enabled = false;
                 }*/
-                int randomValue = UnityEngine.Random.Range(1, 3);
+                int randomValue = UnityEngine.Random.Range(1, 4);
                 if (randomValue == 1)
                 {
                     phatassAnimator.SetTrigger("SnipTheKey");
@@ -71,6 +71,16 @@ public class ULC1_Phatass_PinceController : MonoBehaviour, ITickable
                     hasPinched = true;
                     soundDirector.enabled = false;
                     StartCoroutine(HolupALilBit(2.5f));
+                }
+                else if (randomValue == 3)
+                {
+                    phatassAnimator.SetTrigger("SnipTheKey");
+                    ahhhhSource.clip = weGotEm;
+                    ahhhhSource.Play();
+                    thisSpriteRenderer.enabled = false;
+                    hasPinched = true;
+                    soundDirector.enabled = false;
+                    StartCoroutine(HolupALilBit(2f));
                 }
                  
             }
@@ -119,7 +129,7 @@ public class ULC1_Phatass_PinceController : MonoBehaviour, ITickable
                 thisSpriteRenderer.enabled = false;
                 hasPinched = true;
                 soundDirector.enabled = false;
-                StartCoroutine(HolupALilBit(1f));
+                StartCoroutine(HolupALilBit(.75f));
             }
             else if(randomValue == 4)
             {
@@ -129,7 +139,7 @@ public class ULC1_Phatass_PinceController : MonoBehaviour, ITickable
                 thisSpriteRenderer.enabled = false;
                 hasPinched = true;
                 soundDirector.enabled = false;
-                StartCoroutine(HolupALilBit(1.8f));
+                StartCoroutine(HolupALilBit(1.3f));
             }
         }
         } 
